@@ -1,0 +1,89 @@
+body{
+    background-color: #898989;
+    margin: 0;
+    padding: 0;
+    font-size: 0.75em;
+    line-height: 1.2em;
+    color: #333;
+}
+
+#wrap{
+    width: 971px;
+    text-align: left;
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    
+    background-image: url(../images/shadow.png);
+    background-repeat: repeat-y;
+    min-height: 780px;
+}
+
+#logo{
+    float: left;
+    width: 265px;
+    margin: 60px 0 0 40px;
+}
+
+header{
+    height: 151px;
+}
+
+nav#top_menu{
+    float: right;
+    width: 600px;
+    margin: 50px 20px 0 0;
+}
+
+nav#top_menu ul{
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    color: #333;
+}
+
+nav#top_menu ul li{
+    float: left;
+    margin: 0 5px;
+}
+
+/*float: left는 메뉴를 세로에서 가로로 펼치고 각 메뉴사이에 5px 정도로 간격, nav ul li 부분에 float: left를 적용 메뉴를 옆으로 펼침*/
+
+nav#top_menu a{
+    display: block;
+    height: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+/*마우스를 가져다 대면 화면 변환*/
+nav#top_menu a:hover{
+    background-image: url(../images/blue.gif);
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+#login{
+    float: right;
+    margin: 20px 64px 0 0;
+    font-family: sans-serif;
+    font-size: 12px;
+    word-spacing: 5px;
+}
+
+#login a{
+    text-decoration: none;
+    color: #333;
+}
+
+#login a:hover{
+    color: #f90;
+    
+}
+
+.clear{
+    clear: both;
+    /*박스 모델끼리 간섭제거*/
+}

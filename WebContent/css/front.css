@@ -1,0 +1,69 @@
+#main_img{
+    width: 971px;
+    height: 308px;
+    background-image: url(../images/img_back.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+#main_img img{
+    margin: 2px 0 0 0;
+}
+
+article#front{
+    margin: 5px 0 5px 20px;
+}
+
+#solution{
+    border: solid 1px #ffffff;
+    border-radius: 10px;
+    width: 910px;
+    min-height: 150px;
+    background: #ebebeb;
+    padding: 10px;
+}
+
+#hosting, #security, #payment{
+    width: 260px;
+    float: left;
+    padding: 10px;
+    margin-right: 22px;
+}
+
+/*slider*/
+#s3slider{
+    width: 971px;
+    height: 302px;
+    position: relative;
+    overflow: hidden;
+}
+
+#s3sliderContent{
+    width: 971px;
+    position: absolute;
+    top: 0;
+    margin: 0 0 0 -40px;
+}
+
+.s3sliderImage{
+    float: left;
+    position: relative;    /*상대적 위치*/
+    display: none;
+}
+
+.s3sliderImage span{
+    position: absolute;
+    left: 0;
+    font: 10px Arial;
+    padding: 15px;
+    width: 971px;
+    margin: 2px 0 0 0;
+    background-color: #000;
+    filter: alpha(opacity = 70);
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;        /*투명도*/
+    color: #fff;
+    display: none;
+    top: 0;
+}
